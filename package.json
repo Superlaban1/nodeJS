@@ -1,0 +1,28 @@
+{
+  "name": "everride",
+  "version": "1.0.0",
+  "description": "car thing api",
+  "homepage": "https://github.com/Superlaban1/nodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/Superlaban1/nodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Superlaban1/nodeJS.git"
+  },
+  "license": "ISC",
+  "author": "Mikkel B C",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
