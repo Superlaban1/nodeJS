@@ -9,5 +9,8 @@ routes.get('/', (req: Request, res: Response) => {
 routes.get('/sold-cars', (req: Request, res: Response) => {
   res.send('its gone'); 
 });
+routes.get('/unsold-cars', (req: Request, res: Response) => {
+  res.send('its here'); 
+});
 
 export const carRoutes = routes 
